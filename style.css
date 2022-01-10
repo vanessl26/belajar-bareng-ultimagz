@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(89, 255, 47);
+}
+
+.one {
+    background-color: red;
+    height: 80%;
+    width: 45%;
+}
+
+.content {
+    width: 45%;
+}
+
+.two {
+    background-color: yellow;
+    height: 50%;
+}
+
+.bottom {
+    height: 50%;
+    display: flex;
+}
+
+.three {
+    background-color: blue;
+    height: 100%;
+    width: 50%;
+}
+
+.four {
+    background-color: purple;
+    height: 100%;
+    width: 50%;
+}
